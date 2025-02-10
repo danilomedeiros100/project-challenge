@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <script defer src="script.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .error-message {
+            color: red;
+            font-size: 14px;
+            margin-top: 5px;
+            display: none;
+        }
+
+        .error-border {
+            border: 2px solid red;
+        }
+
+        .success-message {
+            color: green;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 15px;
+            display: none;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Cadastro de Usuário</h2>
+    <form id="cadastro-form" novalidate>
+        <div class="form-group">
+            <label for="email">E-mail:</label>
+            <input type="text" id="email" autocomplete="off">
+            <span id="email-error" class="error-message">O e-mail é obrigatório!</span>
+        </div>
+
+        <div class="form-group">
+            <label for="confirm-email">Confirme seu E-mail:</label>
+            <input type="text" id="confirm-email" autocomplete="off">
+            <span id="confirm-email-error" class="error-message">A confirmação do e-mail é obrigatória!</span>
+        </div>
+
+        <div class="form-group">
+            <label for="password">Senha:</label>
+            <input type="password" id="password" autocomplete="off">
+            <span id="password-error" class="error-message">A senha é obrigatória!</span>
+        </div>
+
+        <button type="submit">Cadastrar</button>
+        <p id="success-message" class="success-message">Cadastro realizado com sucesso!</p>
+    </form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,63 @@
+{
+    "performance_test_results": {
+        "average_response_time_ms": 8.0,
+        "number_of_failures": 0
+    },
+    "tests": [
+        {
+            "average_response_time_ms": 8.0,
+            "number_of_failures": 0,
+            "test_type": "performance"
+        },
+        {
+            "average_response_time_ms": 6.0,
+            "number_of_failures": 0,
+            "test_type": "performance"
+        },
+        {
+            "average_response_time_ms": 8.0,
+            "number_of_failures": 0,
+            "test_type": "performance"
+        },
+        {
+            "average_response_time_ms": 8.0,
+            "number_of_failures": 0,
+            "test_type": "performance"
+        },
+        {
+            "average_response_time_ms": 6.0,
+            "number_of_failures": 0,
+            "test_type": "performance"
+        },
+        {
+            "average_response_time_ms": 8.0,
+            "number_of_failures": 0,
+            "test_type": "performance"
+        },
+        {
+            "average_response_time_ms": 8.0,
+            "number_of_failures": 0,
+            "test_type": "performance"
+        },
+        {
+            "average_response_time_ms": 8.0,
+            "number_of_failures": 0,
+            "test_type": "performance"
+        },
+        {
+            "average_response_time_ms": 7.0,
+            "number_of_failures": 0,
+            "test_type": "performance"
+        },
+        {
+            "average_response_time_ms": 7.0,
+            "number_of_failures": 0,
+            "test_type": "performance"
+        },
+        {
+            "average_response_time_ms": 7.0,
+            "number_of_failures": 0,
+            "test_type": "performance"
+        }
+    ]
+}
